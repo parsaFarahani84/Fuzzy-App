@@ -35,7 +35,7 @@ export default function Home() {
         direction="right"
         speed="slow"
       />
-      <section>
+      <section className="mt-[-10rem]">
         <HeroParallax products={products} />
       </section>
     </main>
