@@ -13,11 +13,14 @@ export default function Home() {
             titleComponent={
               <div className="flex items-center justify-center flex-col">
                 <Button
-                  className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
+                  className=" text-gray-50 hover:text-gray-900 p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500 "
                   size={"lg"}
                 >
                   Start Free Today
                 </Button>
+                <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
+                  Automate Your Work With Fuzzie
+                </h1>
               </div>
             }
           ></ContainerScroll>
