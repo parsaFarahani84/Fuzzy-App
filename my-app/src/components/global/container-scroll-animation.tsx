@@ -84,12 +84,12 @@ export const Card = ({
       className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full  p-6 bg-[#222222] rounded-[30px] shadow-2xl"
     >
       <div className="bg-gray-100 h-full w-full rounded-2xl  gap-4 overflow-hidden p-4 transition-all ">
-        <Image
+        {/* <Image
           src="/temp-banner.png"
           fill
           alt="bannerImage"
           className="object-cover border-8 rounded-2xl"
-        />
+        /> */}
       </div>
     </motion.div>
   );

@@ -28,7 +28,7 @@ export const HeroParallax = ({
     offset: ["start start", "end start"],
   });
 
-  const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
+  const springConfig = { stiffness: 100, damping: 30, bounce: 100 };
 
   const translateX = useSpring(
     useTransform(scrollYProgress, [0, 1], [0, 1000]),
@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[420vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
