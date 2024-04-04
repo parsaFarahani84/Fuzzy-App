@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 import { menuOptions } from "@/lib/constant";
 import clsx from "clsx";
+import { Separator } from "@radix-ui/react-separator";
 
 type Props = {};
 
@@ -52,6 +53,10 @@ const MenuOptions = (props: Props) => {
             </ul>
           ))}
         </TooltipProvider>
+        <Separator />
+        <div className="flex items-center flex-col gap-9 dark:bg-[#353346]/30 py-4 px-2 rounded-full h-56 overflow-scroll border-[1px]">
+          <div className="relative dark:bg-[#353346]/70 p-2 rounded-full dark:border-t-[2px] border-[1px] dark:border-t-[#353346]"></div>
+        </div>
       </div>
     </nav>
   );
